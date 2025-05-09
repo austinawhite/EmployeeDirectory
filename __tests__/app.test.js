@@ -1,7 +1,7 @@
 import request from "supertest";
 import { onTestFailed, describe, expect, it, test } from "vitest";
 
-import app from "#app";
+import app from "../app.js";
 import employees from "#db/employees";
 
 describe("Express app", () => {

@@ -8,7 +8,7 @@
     "test": "vitest"
   },
   "imports": {
-    "#*": "./*.js"
+    "#db/*": "./db/*.js"
   },
   "dependencies": {
     "express": "^5.1.0"
